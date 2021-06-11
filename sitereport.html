@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>my webpage</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="ham"></div>
+            <div class="ham"></div>
+            <div class="ham"></div>
+        </div>
+        <div id="bar">
+            <input type="checkbox" id="check">
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+     	    <a href="contact.html">Contact</a>
+            <a href="CV.html">CV</a>
+     	    <a href="sitereport.html">Report</a>
+        </div>
+        </div>
+    </nav>
+    <h5>SITE REPORT</h5>
+    <h6>INTRODUCTION:</h6>
+    <p>The assignment of module csy1018 is to make a webpage which contain five pages i.e. Home, Portfolio ,Contact , CV , Sitereport . At the beginning its very hard for me to cope with web development as it includes coding , design ,HTML ,CSS etc which is very new for me .But our module teacher has good way of teaching and that make me ease throughout my learning process but still i lack in many things .HTML is a way easier than css because we need to make our page look good through css as we want .Our teacher didnt teach us all the properties we need to use in css and this make me a little difficult as I need to explore on my own through different means.This assignment can also determine how much we learn throughout term 1 about html ,css, design etc.But most of the part were explored and learned by ourselves as per my view our module teacher gave us 40% about coding and other 60% are explored by ourself.</p>
+    <h6>OBJECTIVES:</h6>
+    <ul>
+        <li>To make our own webpage which contain five pages.</li>
+        <li>To show our skills through this assignment.</li>
+        <li> To know our expereience and knowledge of this subject i.e. Web development</li>
+    </ul>
+    <h6>HOME PAGE:</h6>
+    <p>This page include a nav bar that link all other pages. For making this i started with the nav tag and linked all other pages with href attribute like i linked my index.css to style my webpage . All the designs , size , font of my webpage are done through this index.css.In css, nav tag give black color and prevent it from overflow as i made it hidden .From the use of nav a i changed the color of text,  floated left and gave padding , font-size and display:inline-block is used to show nav bar into blocks. I even hovered (nav a ) giving a background color so when i put mouse upon the Home,Portfolio,Contact,CV, Site report color will change from black to given color. I get the idea of hover and navbar from online website i.e. [https://www.w3schools.com/howto/howto_js_topnav.asp]. For all five pages there is same background color and same navbar which maintain consistent layout across all pages.Only in this page,I inserted an image with heading [WELCOME TO MY PAGE] . For this i gave a div class and insert an image through css maintaining its color ,text shadow , font-size etc.For application of animation,I gave animation name h1 and by using letter spacing property inside keyframes(h1) that animation can be seen in text. Animation duration is 3s and it will repeat for 2 times by using animation-iteration-count property.</p>
+        <ul>
+            <li>Image from wallpaperAcess,[https://wallpaperaccess.com/4k-anime-art]</li>
+            <li>Text animation idea from
+            https://www.youtube.com/watch?v=Syg_9iB1vco&t=14s
+            18feb2018,
+            darkcode</li>
+        </ul>
+    <h6>PORTFOLIO PAGE</h6>
+    <p>In all head section of five pages there is meta tag which make  pages responsive .For responsive navbar first i gave div class="ham" inside div class="menu" and in css i gave its margin , height , width, background-color white in class ham which can be seen in black in navbar. I made it disappear in desktop view by using display none property but it appears in mobile view as i mentioned class menu and gave it display block in media screen of css. Working mechanism of menu icon depends on checkbox which appear above icon so when we click on menu icon checkbox worked.For checkbox I added input tag inside div id bar. We can see in media screen part of css  where i made this icon work.</p>
+    <p>portfolio page is for placeholder images that will eventually replaced with our work from Term-2.So using display grid property i inserted six images making three columns.In placeholder class i inserted same six images using img tag. Images are seen in one column in mobile view as i make class place-holder's grid-template-column auto in media screen.</p>
+        <ul>
+            <li>Image from kelly sikkema published on september 18 2017 https://unsplash.com/photos/Oz_J_FXKvIs.</li>
+        </ul>
+    <h6>Contact page</h6>
+    <p>Mainly form tag and input tag are used to make a form for this page .It includes firstname,lastname,email address and message for us .Textarea tag is used so that we can drag that box as we wish and we can write longer messages.In css fieldset is made centre by using text-align property.When i put my mouse into submit button it changes the color for that i changed the background color of input[type=submit]:hover in css.</p>
+        <ul>
+            <li>Contact page idea from https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-page-sleeknote-5f4443fc2b8a9.png</li>
+        </ul>
+    <h6>CV page</h6>
+    <p>Display grid property is used in cv as well.For this I made two div class left and right respectively where div class CV is parent div for them.In css,i gave background purple and white for right and grid property is mainatained through parent div cv. I made round shape photo of me by using border-radius property.</p>
+        <ul>
+            <li>CV format idea from https://resumekraft.com/</li>
+        </ul>
+    <h6>Report page</h6>
+    <p>In this page I include my experiences of this module and explain about my webpage which includes five pages .I explained about all these home, portfolio, contact, CV, report pages like design decisions ,tags used in html , chose of proper color , layout decisions , ham burger icon , animations , css , idea of webpage , navbar etc.</p>
+</body>
+</html>
